@@ -1,7 +1,7 @@
 import argparse
-from Class_Generator import Generator
-from Class_Encryptor import Encryptor
-from Class_Decryptor import Decryptor
+from generator import Generator
+from encryptor import Encryptor
+from decryptor import Decryptor
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
